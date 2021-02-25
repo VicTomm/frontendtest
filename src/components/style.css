@@ -1,0 +1,33 @@
+.autocomplete-container {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.autocomplete-input {
+  width: 100px;
+  height: 20px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.autocomplete-suggestions {
+  width: 100px;
+  max-height: 150px;
+  overflow: scroll;
+  border: 1px solid;
+  padding: 5px;
+  font-size: 14px;
+  list-style: none;
+}
+
+.autocomplete-input.countries,
+.autocomplete-suggestions.countries {
+  width: 200px;
+}
+
+.autocomplete-suggestions li:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
